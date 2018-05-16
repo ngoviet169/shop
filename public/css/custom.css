@@ -1,3 +1,16 @@
 #logo {
     width: 100px;
 }
+
+.logo {
+    padding: 7px !important;
+}
+
+#user-menu {
+    float: right !important;
+}
+
+.footer-logo {
+    width: 100px !important;
+    padding-top: 0px !important;
+}

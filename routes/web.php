@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', 'ProductController@index')->name('home');
+Route::get('/oil/{id}', 'CategoryController@cateDetail')->name('list-product-category');
